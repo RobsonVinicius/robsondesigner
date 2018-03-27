@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+
+<head>
+    <title>Mother Base</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="base/favicon.ico" rel="shortcut icon" />
+
+
+    <link rel="stylesheet" type="text/css" href="base/css/style-motherbase.css">
+    <link rel="stylesheet" href="base/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="base/css/mystyle.css">
+    
+    
+    
+  </head>  <body>
+   <header class="header">
+      
+        <a href="index.html">
+          <div><h1>MOTHER BASE</h1></div>
+        </a>
+   </header>
+    <main>
+      <ul class="cards">
+        <li class="card">
+          <a href="paginas/apoio/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-users fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>APOIO</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/portfolios/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-folder-open-o fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>PORTFOLIOS</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/design/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-pencil fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>DESIGN</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/frontend/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-html5 fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>FRONT END</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/marketing/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i></div>  
+            </div>
+            <h2><strong>MARKETING</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/seo/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-line-chart fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>SEO</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/ux/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>UX</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/3d/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-cube fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>3D</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/livros/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-book fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>LIVROS</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/ebooks/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-file-pdf-o fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>EBOOKS</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/sites/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-server fa-5x"></i></div> 
+            </div>
+            <h2><strong>SITES</strong></h2>
+          </a>
+        </li>
+        <li class="card">
+          <a href="paginas/emailMkt/index.html">
+            <div class="card-icon">
+              <div><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></div> 
+            </div>
+            <h2><strong>EMAIL MKT</strong></h2>
+          </a>
+        </li>
+        
+        
+      </ul>
+    </main>
+    <footer>
+     
+     
+      
+      
+    </footer>
+    <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('.header').data('size','big');
+      $(window).scroll(function(){
+        if($(document).scrollTop() > 5)
+        {
+          if($('.header').data('size') == 'big')
+          {
+            $('.header').data('size','small');
+            $('.bookmark-this').attr('class','bookmark-this header-show');             
+          }
+        }
+        else
+        {
+          if($('.header').data('size') == 'small')
+          {
+            $('.header').data('size','big');
+            $('.bookmark-this').attr('class','bookmark-this');   
+          }  
+        }
+      });
+    </script>
+    
+  </body>
+
+
+</html>

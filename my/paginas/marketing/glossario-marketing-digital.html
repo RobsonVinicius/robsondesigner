@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	
+
+<head>
+		<title>Mother Base | Marketing</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="../../base/favicon.ico" rel="shortcut icon" />
+
+
+		<link rel="stylesheet" type="text/css" href="../../base/css/style-motherbase.css">
+		<link rel="stylesheet" href="../../base/font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../../base/css/mystyle.css">
+		
+</head>  
+
+	<body>
+	
+		<header class="header">
+					<a href="../../index.html">
+						<div><h1><i class="fa fa-arrow-left fa-fw" aria-hidden="true"></i> MOTHER BASE</h1></div>
+					</a>
+		</header>
+
+		<main class="resources">
+			
+			<ul class="resource-list bootstrap">
+			
+				<h2 class="margen-titulo" style="color: rgb(200,200,200)">Glossário Marketing Digital</h2>
+				<div class="linha"></div>
+
+				<!-- widht="476" height="288"-->
+				<iframe src="https://onedrive.live.com/embed?cid=21961129DC82595E&resid=21961129DC82595E%21124&authkey=AAL5vYIO6dHCK1E&em=2" width="800" height="700"  frameborder="0" scrolling="no"></iframe>
+				
+			</ul>
+
+			<ul class="sidebar-navigation">
+			  <li><a href="../apoio/index.html"><div class="circle"></div>Apoio</a></li>	
+	 		  <li><a href="../portfolios/index.html"><div class="circle"></div>Portfolios</a></li>
+				<li><a href="../design/index.html"><div class="circle"></div>Design</a></li>
+				<li><a href="../frontend/index.html"><div class="circle"></div>Front End</a></li>
+				<li><a href="../marketing/index.html" class="selected"><div class="circle"></div>Marketing</a></li>
+				<li><a href="../seo/index.html"><div class="circle"></div>SEO</a></li>
+				<li><a href="../ux/index.html"><div class="circle"></div>UX</a></li>
+				<li><a href="../3d/index.html"><div class="circle"></div>3D</a></li>             
+				<li><a href="../livros/index.html"><div class="circle"></div>Livros</a></li>
+				<li><a href="../ebooks/index.html"><div class="circle"></div>Ebooks</a></li>
+				<li><a href="../sites/index.html"><div class="circle"></div>Sites</a></li>
+				<li><a href="../emailMkt/index.html"><div class="circle"></div>Email MKT</a></li>		
+			</ul>    
+
+		</main>
+	 
+		<footer>
+			
+		</footer>
+		
+		<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$('.header').data('size','big');
+			$(window).scroll(function(){
+				if($(document).scrollTop() > 5)
+				{
+					if($('.header').data('size') == 'big')
+					{
+						$('.header').data('size','small');
+						$('.bookmark-this').attr('class','bookmark-this header-show');             
+					}
+				}
+				else
+				{
+					if($('.header').data('size') == 'small')
+					{
+						$('.header').data('size','big');
+						$('.bookmark-this').attr('class','bookmark-this');   
+					}  
+				}
+			});
+		</script>
+		
+	</body>
+
+
+</html>
