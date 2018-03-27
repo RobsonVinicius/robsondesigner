@@ -1,0 +1,13 @@
+.bg-rock{background:#2c3e50;}
+.right-nav{justify-content: flex-end;}
+.navbar-toggleable-md .navbar-nav .nav-link {padding-right: .7rem;}
+.topo {padding: 50px 0px;}
+.divisor-rock{width: 50px; margin: 20px auto; border-top: 3px solid #2c3e50;}
+.text-color1{color:#2c3e50}
+/*.card-subtitle{min-height: 35px} */
+.hora-aula{font-size: 20px; font-weight: 400;}
+.metodo{display: inline-block; border: 1px solid #5d5d5d; padding: 5px; border-radius: 5px; font-size: 15px; color: #5d5d5d; }
+#menu .nav-link{font-weight: bold}
+#menu .nav-link.active{border-bottom: 3px solid white}
+.paginacao .container hr {margin-top: 0px;}
+.flex{display: flex; justify-content: space-between;}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /certificados
+Disallow: /certificados/
+Disallow: /cv_robsonvinicius_designer.pdf
+Sitemap: http://www.cv.robsondesigner.com/sitemap.xml
