@@ -84,6 +84,15 @@ margin-bottom: 0;
 color: #b1b1b1;
 }
 
+.margin-abaixoh2 {
+  margin-bottom: 30px;
+  }
+
+.espaco-prototipo {
+  margin-top: 0;
+  line-height: 1.5;
+  }
+
 /* CV Item */
 
 .cv-item {

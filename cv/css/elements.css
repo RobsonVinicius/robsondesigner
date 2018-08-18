@@ -321,6 +321,8 @@
 		font-size: 11px; 
 		
 		}
+
+		
 	
 	.btn-certificado:hover {
 		background: #0090af;
@@ -341,6 +343,44 @@
 	}
 
 	.btn-certificado .fa:hover {
+		color: #fff;
+	}
+
+	.btn-portfolio {
+		background: #636363;
+    color: #fff;
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-right: 17px;
+    display: block;
+    border-radius: 5px;
+    float: right;
+    font-size: 11px;
+    text-align: center;
+		
+		}
+
+		
+	
+	.btn-portfolio:hover {
+		background: #0090af;
+		color: #4A4A4A;
+		padding-top: 8px;
+		padding-left: 17px;
+    padding-right: 17px;
+		display: block;
+		border-radius: 5px;
+		float: right;
+		font-size: 11px;
+			
+		
+		}
+	
+	.btn-portfolio .fa {
+		color: #fff;
+	}
+
+	.btn-portfolio .fa:hover {
 		color: #fff;
 	}
 /* ==========================================================================
