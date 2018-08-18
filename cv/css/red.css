@@ -545,7 +545,8 @@ a.xing-icon:hover {
     border: 1px solid #dadada;
 }
 .cv-section-title h2 {
-    color: #b1b1b1;
+    color: #0090af;
+    font-weight: 300;
 }
 /* CV Item */
 
