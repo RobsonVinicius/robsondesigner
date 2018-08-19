@@ -364,7 +364,7 @@
 	
 	.btn-portfolio:hover {
 		background: #0090af;
-		color: #4A4A4A;
+		color: rgb(255, 255, 255);
 		padding-top: 8px;
 		padding-left: 17px;
     padding-right: 17px;
