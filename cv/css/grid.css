@@ -132,6 +132,48 @@
 	.ajuste {
 		margin-top: -3px;
 		color: #a8a6a7;
+		clear: both;
+	}	
+
+	.area-1 {
+		width: 75%;
+		float: left;
+	}
+	.area-2 {
+		width: 20%;
+		float: right;	
+		margin-top: 10px	
+	}
+
+	.btn-certificado {
+		padding-bottom: 7px;
+	}
+
+	.exp-titulo {
+		display: inline-block;
+	}
+
+	.linha-cursos {
+		display: inline-block;
+		width: 100%;
+	}	
+
+	.prototipo-area1 {
+		width: 58%;
+		float: left;
+	}
+
+	.prototipo-area2 {
+		width: 10%;
+		float: right;
+		margin-top: 10px;
+	}
+
+	@media (min-width: 768px) {
+		.limpar {
+			clear: both;
+			padding-top: 40px;
+		}
 	}
 /* ==========================================================================
    #Tablet (Portrait)
@@ -209,6 +251,17 @@
 		
 	}
 
+	.prototipo-area1 {
+		width: 59%;
+		float: left;
+	}
+
+	.prototipo-area2 {
+		width: 10%;
+		float: right;
+		margin-top: 10px;
+	}
+
 /* ==========================================================================
    #Mobile (Portrait and Landscape )
    ========================================================================== */
@@ -256,16 +309,98 @@
 		 }
 		 
 	#container-1 {
-	width: 48%;
-	float: left;
+	width: 100%;
 		}
 		
 	#container-2 {
-	width: 48%;
-	float: right;
+	width: 100%;
+	margin-top: 37px;
+
 		}
-		
+
+	.cv-section-title h1 {
+		text-align: left;
+		line-height: 1.2;
+		font-weight: 400;
 	}
+
+	.cv-section-title h1 small {
+		padding-top: 15px;
+		font-size:19px !important;
+		line-height: 1.5 !important;
+	}
+
+	.last {
+		font-size: 15px;
+	}
+
+	#print, #pdf {
+		display: none !important;
+	}
+
+	.cv-section-title h2 {
+		font-weight: 400 !important;
+	}
+
+	.area-1 {
+		width: 80%;
+		float: left;
+		text-align: left;
+	}
+	.area-2 {
+		width: 20%;
+		float: right;	
+		margin-top: 10px	
+	}
+
+	.ajuste, .margembaixo {
+		clear: both;
+	}
+
+	.btn-certificado {
+		padding-bottom: 7px;
+	}
+
+	.margembaixo h4 {
+		margin: 10px 0;
+	}
+
+	.formacao {
+		padding-top:25px;
+	}
+
+	.linha-cursos {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.esp-tituto-habilidades {
+		display: none;
+	}
+
+	.prototipo-area1 {
+		width: 74%;
+		float: left;
+	}
+
+	.prototipo-area2 {
+		width: 10%;
+		float: right;
+		margin-top: 10px;
+	}
+
+	.perfil-p {
+		font-size: 15px;
+	}
+	
+	}
+
+	@media (max-width: 390px) {
+		.prototipo-area1 {
+			width: 69%;
+			float: left;
+		}
+		}
 	
 /* ==========================================================================
    #Align

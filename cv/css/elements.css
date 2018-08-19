@@ -349,7 +349,8 @@
 	.btn-portfolio {
 		background: #636363;
     color: #fff;
-    padding-top: 8px;
+		padding-top: 11px;
+		padding-bottom: 8px;
     padding-left: 17px;
     padding-right: 17px;
     display: block;
