@@ -274,7 +274,9 @@ main {
 	-webkit-transform:translateZ(0);
 	transform:translateZ(0);
 	border: 1px solid;
-	border-color: gainsboro;
+	border-color: #d8d8d8;
+	border-bottom-left-radius: 11px;
+	border-bottom-right-radius: 11px;
 	}
 	
 .card a {
@@ -299,27 +301,27 @@ main {
 	
 .card:nth-of-type(1) .card-icon { 
 	height:300px;
-	background-color:#0D47A1;
+	background-color:#314559;
 	}
 	
 .card:nth-of-type(2) .card-icon { 
 	height:300px;
-	background-color:#388E3C;
+	background-color:#038C3E;
 	}
 	
 .card:nth-of-type(3) .card-icon {
 	height:300px;
-	background-color:#FFD600;
+	background-color:#FABB02;
 	}
 	
 .card:nth-of-type(4) .card-icon {
 	height:300px;
-	background-color:#DD2C00;
+	background-color:#ff3a3a;
 	}
 	
 .card:nth-of-type(5) .card-icon { 
 	height:300px;
-	background-color:#FFECB3;
+	background-color:#ffdc74;
 	}
 	
 .card:nth-of-type(6) .card-icon { 
