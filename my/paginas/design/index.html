@@ -194,8 +194,11 @@
           <p>Blog sobre Design e arte</p>
         </div>
         <a class="resource-button" href="http://www.updateordie.com/" target="_blank">Veja</a>   
+        <div id="blogs-inter"></div>
 		  </li>
-        
+      
+      
+
       <div class="linha"></div>
       <h2 class="margen-titulo color-design">Blogs Internacionais</h2>        
       <div class="linha"></div>
@@ -228,7 +231,9 @@
           <p>Blog internacional sobre Design &amp; Front End</p>
         </div>
         <a class="resource-button" href="http://naldzgraphics.net/" target="_blank">Veja</a>   
-		  </li>
+        <div id="tipsandtrics"></div>
+      </li>
+      
         
       <div class="linha"></div>
       <h2 class="margen-titulo color-design">Tips and Tricks</h2>
@@ -427,6 +432,7 @@
           <p>Comprovação de Autoria</p>
         </div>
         <a class="resource-button" href="https://avctoris.com" target="_blank">Veja</a>
+        <div id="estudo"></div>
 		  </li>
       
       <div class="linha"></div>
@@ -506,8 +512,30 @@
           <p>Fontes Light</p>
         </div>
         <a class="resource-button" href="http://www.cutedrop.com.br/2015/09/free-download-fontes-light-para-baixar-de-graca/" target="_blank">Veja</a>
+        <div id="professores"></div>
       </li>
 
+      <div class="linha"></div>
+      <h2 class="margen-titulo color-frontend">Professores</h2>
+      <div class="linha"></div>
+
+    
+      <li>
+        <div class="resource-icon">
+          <a href="http://www.biblioteca.pucpr.br/pergamum/biblioteca/img.php?arquivo=/00006b/00006b0b.pdf" target="_blank">
+            <img src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4282913E6" alt="#" />
+          </a>
+        </div>
+        <div class="resource-details">
+          <h2>
+            <a href="http://www.biblioteca.pucpr.br/pergamum/biblioteca/img.php?arquivo=/00006b/00006b0b.pdf" target="_blank">Gisela Meister - Tese de Doutorado</a>
+          </h2>
+          <p><mark><a href="http://olhabrasil.com.br/2017/04/03/17/" target="_blank">Dr. Gisela Solheid Meister Fala Sobre Pichação E Grafite</a></mark> <a href="http://lattes.cnpq.br/1647993264168604" target="_blank">Currículo Lattes</a></p>
+        </div>
+        <a class="resource-button" href="http://www.biblioteca.pucpr.br/pergamum/biblioteca/img.php?arquivo=/00006b/00006b0b.pdf" target="_blank">Veja</a>
+      </li>
+
+      
       </ul>
         <ul class="sidebar-navigation">
           <li><a href="../apoio/index.html"><div class="circle"></div>Apoio</a></li>	
@@ -522,6 +550,14 @@
           <li><a href="../ebooks/index.html"><div class="circle"></div>Ebooks</a></li>
           <li><a href="../sites/index.html"><div class="circle"></div>Sites</a></li>
           <li><a href="../emailMkt/index.html"><div class="circle"></div>Email MKT</a></li>
+
+          <div class="linha2"></div>
+          <h2 class="margen-titulo color-filtro">Filtro</h2>
+          <li><a class="scroll" href="#blogs-inter">Blogs Internacionais</a></li>
+          <li><a class="scroll" href="#tipsandtrics">Tips and Tricks</a></li>
+          <li><a class="scroll" href="#estudo">Estudo</a></li>
+          <li><a class="scroll" href="#professores">Professores</a></li>
+          
         </ul>    
   	</main>
    
@@ -531,25 +567,34 @@
     
     <script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript">
-      $('.header').data('size','big');
-      $(window).scroll(function(){
-        if($(document).scrollTop() > 5)
-        {
-          if($('.header').data('size') == 'big')
-          {
-            $('.header').data('size','small');
-            $('.bookmark-this').attr('class','bookmark-this header-show');             
-          }
-        }
-        else
-        {
-          if($('.header').data('size') == 'small')
-          {
-            $('.header').data('size','big');
-            $('.bookmark-this').attr('class','bookmark-this');   
-          }  
-        }
-      });
+      // $('.header').data('size','big');
+      // $(window).scroll(function(){
+      //   if($(document).scrollTop() > 5)
+      //   {
+      //     if($('.header').data('size') == 'big')
+      //     {
+      //       $('.header').data('size','small');
+      //       $('.bookmark-this').attr('class','bookmark-this header-show');             
+      //     }
+      //   }
+      //   else
+      //   {
+      //     if($('.header').data('size') == 'small')
+      //     {
+      //       $('.header').data('size','big');
+      //       $('.bookmark-this').attr('class','bookmark-this');   
+      //     }  
+      //   }
+      // });
+
+      jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){
+								event.preventDefault();
+								$('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+					 });
+
+
+				});
     </script>
     
   </body>
