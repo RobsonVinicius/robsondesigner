@@ -16,9 +16,11 @@
 
 <body>
   <header class="header">
-      <a href="../../index.html">
-        <div><h1><i class="fa fa-arrow-left fa-fw" aria-hidden="true"></i> MOTHER BASE</h1></div>
-      </a>
+    <a href="../../index.html">
+      <div>
+        <h1><i class="fa fa-arrow-left fa-fw" aria-hidden="true"></i> MOTHER BASE</h1>
+      </div>
+    </a>
   </header>
   
   <main class="resources">
@@ -180,6 +182,8 @@
         </div>
         <a class="resource-button" href="https://www.canalip.com/blog/los-mejores-recursos-seo/" target="_blank">Veja</a>
       </li>    
+
+      <div id="ferramentas"></div>
            
       <div class="linha"></div>    
       <h2 class="margen-titulo color-seo">Ferramentas</h2>    
@@ -441,6 +445,27 @@
         </div>
         <a class="resource-button" href="http://optinmonster.com/" target="_blank">Veja</a>
       </li>
+
+      <div id="estudo"></div>
+
+      <div class="linha"></div>
+      <h2 class="margen-titulo color-seo">Estudo</h2>
+      <div class="linha"></div>
+
+      <li>
+        <a href="https://morningscore.io/seo-glossary/" target="_blank">
+          <div class="resource-icon">
+            <img src="https://scontent.fcwb2-1.fna.fbcdn.net/v/t1.0-1/p320x320/27544792_142874476406611_5804344329479977520_n.png?_nc_cat=111&oh=5aeef0706928530ab64bab7d72a94584&oe=5C54E23E" alt="#" />
+          </div>
+        </a>
+        <div class="resource-details">
+          <h2>
+            <a href="https://morningscore.io/seo-glossary/" target="_blank">SEO Glossary</a>
+          </h2>
+          <p>Glossário de SEO - Morning Score</p>
+        </div>
+        <a class="resource-button" href="https://morningscore.io/seo-glossary/" target="_blank">Veja</a>
+      </li>
          
     </ul>
 
@@ -456,7 +481,13 @@
       <li><a href="../livros/index.html"><div class="circle"></div>Livros</a></li>
       <li><a href="../ebooks/index.html"><div class="circle"></div>Ebooks</a></li>
       <li><a href="../sites/index.html"><div class="circle"></div>Sites</a></li>
-      <li><a href="../emailMkt/index.html"><div class="circle"></div>Email MKT</a></li>    
+      <li><a href="../emailMkt/index.html"><div class="circle"></div>Email MKT</a></li> 
+      
+      <div class="linha2"></div>           
+      <h2 class="margen-titulo" style="color: #DD2C00">Filtro</h2>
+      <li><a class="scroll" href="#ferramentas">Ferramentas</a></li>
+      <li><a class="scroll" href="#estudo">Estudo</a></li>  
+      
     </ul>    
 
   </main>
@@ -467,24 +498,11 @@
     
   <script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $('.header').data('size','big');
-    $(window).scroll(function(){
-      if($(document).scrollTop() > 5)
-      {
-        if($('.header').data('size') == 'big')
-        {
-          $('.header').data('size','small');
-          $('.bookmark-this').attr('class','bookmark-this header-show');             
-        }
-      }
-      else
-      {
-        if($('.header').data('size') == 'small')
-        {
-          $('.header').data('size','big');
-          $('.bookmark-this').attr('class','bookmark-this');   
-        }  
-      }
+    jQuery(document).ready(function($) { 
+      $(".scroll").click(function(event){        
+        event.preventDefault();
+      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+     });
     });
   </script>
     
