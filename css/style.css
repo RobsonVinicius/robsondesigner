@@ -615,8 +615,6 @@ label {
 	/* background: url(../img/contact-mask-1.png) no-repeat; */
 	-webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-	 
-	
 	
 }
 
@@ -656,11 +654,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 
-.concerto_icone i.fa {
-	
-/* padding: 18px 20px !important; */
-
-}
 .social hr {
 	background: #b3b3b3 !important;
 	width: 40% !important;
