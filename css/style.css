@@ -621,6 +621,7 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 #contact-section .social i.fa:hover {
 	color: #0D394F;
 	background-color: #fdb020;
+	transform: scale(1.5)
 	/* background: url(../img/contact-mask-2.png) no-repeat;  */
 }
 
