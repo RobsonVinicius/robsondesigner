@@ -142,14 +142,15 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
-	background-size: cover;
+	/* background-color: #03273150; */
+	background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.46) 37%,rgba(0, 0, 0, 0.54) 100%), url(../img/header-bg.jpg) no-repeat bottom;
+	background-size: cover;	
 	color: #d9e0e2;
 	position: relative;
 	height: 100%; 
-	padding: 100px 0;  /*acrescentado para deixar a imagem maior */
-	
+	padding: 100px 0;  /*acrescentado para deixar a imagem maior */		
 }
+
 header p {
 	color: #d9e0e2;
 	font-size: 20px;
