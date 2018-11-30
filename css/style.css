@@ -188,6 +188,16 @@ header p {
 	background-color: #0D394F;
 	color: #FFFFFF;
 }
+
+.btn-portfolio {
+	list-style: none;
+	transition: all 0.5s
+}
+
+.btn-portfolio:hover {
+	transform: scale(1.2);
+}
+
 /* Services Section */
 #services-section {
 	padding: 160px 0 200px 0; /*anteriormente 80 0 100 0 */
@@ -267,10 +277,12 @@ ol.type li a {
 	border-radius: 3px;
 }
 ol.type li a.active {
-	background: #e7e7e7;
+	background: #032731;
+	color: #ffffff;
 }
 ol.type li a:hover {
-	background: #F5F5F5;
+	background: #f1c40f;
+	color: #000000;
 }
 .isotope-item {
 	z-index: 2
