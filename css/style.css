@@ -191,7 +191,8 @@ header p {
 
 .btn-portfolio {
 	list-style: none;
-	transition: all 0.5s
+	display: inline-block;
+	transition: all .5s;
 }
 
 .btn-portfolio:hover {
