@@ -273,8 +273,8 @@ main {
 	margin:0 0 30px 0;
 	-webkit-transform:translateZ(0);
 	transform:translateZ(0);
-	border: 1px solid;
-	border-color: #d8d8d8;
+	border: 1.3px solid;
+	border-color: #c7c2c2;
 	border-radius: 11px;	
 	}
 	
@@ -303,62 +303,62 @@ main {
 	
 .card:nth-of-type(1) .card-icon { 
 	height:300px;
-	background-color:#314559;
+	background-color:#33A7D8;
 	}
 	
 .card:nth-of-type(2) .card-icon { 
 	height:300px;
-	background-color:#038C3E;
+	background-color:#33B8A7;
 	}
 	
 .card:nth-of-type(3) .card-icon {
 	height:300px;
-	background-color:#ffd100;
+	background-color:#a3fd3b;
 	}
 	
 .card:nth-of-type(4) .card-icon {
 	height:300px;
-	background-color:#ea4228;
+	background-color:#FFF533;
 	}
 	
 .card:nth-of-type(5) .card-icon { 
 	height:300px;
-	background-color:#ffdc74;
+	background-color:#FFCD40;
 	}
 	
 .card:nth-of-type(6) .card-icon { 
 	height:300px;
-	background-color:#880E4F;
+	background-color:#F9A54B;
 	}
 
 .card:nth-of-type(7) .card-icon {
 	height:300px;
-	background-color:#7CB342;
+	background-color:#E5712B;
 	}
 	
 .card:nth-of-type(8) .card-icon { 
 	height:300px;
-	background-color:#6A1B9A;
+	background-color:#F04951;
 	}
 	
 .card:nth-of-type(9) .card-icon { 
 	height:300px;
-	background-color:#80CBC4;
+	background-color:#E63F97;
 	}
 	
 .card:nth-of-type(10) .card-icon {
 	height:300px;
-	background-color:#006064;
+	background-color:#B868AF;
 	}
 	
 .card:nth-of-type(11) .card-icon {
 	height:300px;
-	background-color:#546E7A;
+	background-color:#8968AD;
 	}
 	
 .card:nth-of-type(12) .card-icon { 
 	height:300px;
-	background-color:#3c3c3c;
+	background-color:#3475B7;
 	}
 	
 .card h2 {

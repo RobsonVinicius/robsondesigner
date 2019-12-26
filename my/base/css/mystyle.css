@@ -1,51 +1,51 @@
 
-.fa-server {
-	color: #CFD8DC;
-	}
-
-.fa-envelope-o {
-	color: #FFF;
+.fa-users {	
+	color: #247da2;
 	}
 
 .fa-folder-open-o  {
-	color: #a3ff8d ;
+	color: #33867b;
 	}
-	
-.fa-users {	
-	color: #BBDEFB;
-	}
-	
-.fa-book {	
-	color: #00796B;
-	}
-	
-.fa-file-pdf-o {
-	color: #80CBC4;
-	}
-	
-.fa-pencil {	
-	color:#844c00;
-	}
-	
-.fa-html5 {
-	color: #880500;
-		}	
 
+.fa-pencil {	
+	color:#579213;
+	}
+
+.fa-html5 {
+	color: #7b771c;
+	}	
+	
 .fa-lightbulb-o {
-	color: #ED7D00;}	
+	color: #9c7f2b;
+}	
 
 .fa-line-chart {
-	color: #EC407A;
+	color: #b9742a;
 	}	
-	
-.fa-cube {
-	color: #CE93D8;
-	}		
 	
 .fa-laptop {
-	color: #1B5E20;
-	
+	color: #ffbf99;	
 	}	
+
+.fa-cube {
+	color: #e4d5cc;
+	}	
+
+.fa-book {	
+	color: #770843;
+	}
+
+.fa-file-pdf-o {
+	color: #79106d;
+	}
+
+.fa-server {
+	color: #b795dc;
+	}
+
+.fa-envelope-o {
+	color: #88baec;
+	}
 	
 header h1{
 	font-size:20px;
