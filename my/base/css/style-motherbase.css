@@ -441,11 +441,11 @@ main {
 	}
 
 .icons .resource-button { 
-	box-shadow:#388E3C 0 0px 0px 3px inset
+	box-shadow:#33B8A7 0 0px 0px 3px inset
 	}
 	
 .photoshop .resource-button { 
-	box-shadow:#0D47A1 0 0px 0px 3px inset} 
+	box-shadow:#33A7D8 0 0px 0px 3px inset} 
 	
 .sketch .resource-button { 
 	box-shadow:#80CBC4 0 0px 0px 3px inset
@@ -717,13 +717,13 @@ footer .authors {
 		height:16px;
 		width:16px;
 		border-radius:50%;
-		background-color:#0D47A1}
+		background-color:#33A7D8}
 		
 	.sidebar-navigation li:nth-of-type(2) .circle {
 		height:16px;
 		width:16px;
 		border-radius:50%;
-		background-color:#388E3C
+		background-color:#33B8A7
 		}
 		
 	.sidebar-navigation li:nth-of-type(3) .circle {
@@ -800,12 +800,12 @@ footer .authors {
 	
 	.icons .resource-button:hover {
 		color:#fff;
-		box-shadow:#388E3C 0 0px 0px 40px inset
+		box-shadow:#33B8A7 0 0px 0px 40px inset
 		}
 		
 	.photoshop .resource-button:hover {
 		color:#fff;
-		box-shadow:#0D47A1 0 0px 0px 40px inset
+		box-shadow:#33A7D8 0 0px 0px 40px inset
 		}
 	
 	.sketch .resource-button:hover {
