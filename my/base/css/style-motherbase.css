@@ -456,7 +456,7 @@ main {
 	}
 
 .prototyping .resource-button { 
-	box-shadow:#FFD600 0 0px 0px 3px inset
+	box-shadow:#7bbf2c 0 0px 0px 3px inset
 	}
 	
 .front-end .resource-button {
@@ -730,7 +730,7 @@ footer .authors {
 		height:16px;
 		width:16px;
 		border-radius:50%;
-		background-color:#FFD600
+		background-color:#7bbf2c
 		}
 	
 	.sidebar-navigation li:nth-of-type(4) .circle {
@@ -820,7 +820,7 @@ footer .authors {
 	
 	.prototyping .resource-button:hover {
 		color:#fff;
-		box-shadow:#FFD600 0 0px 0px 40px inset
+		box-shadow:#7bbf2c 0 0px 0px 40px inset
 		}
 	
 	.front-end .resource-button:hover {
