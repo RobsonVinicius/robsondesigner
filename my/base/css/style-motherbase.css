@@ -303,7 +303,7 @@ main {
 	
 .card:nth-of-type(1) .card-icon { 
 	height:300px;
-	background-color:#33A7D8;
+	background-color:#32a7d8;
 	}
 	
 .card:nth-of-type(2) .card-icon { 
@@ -313,12 +313,12 @@ main {
 	
 .card:nth-of-type(3) .card-icon {
 	height:300px;
-	background-color:#a3fd3b;
+	background-color:#8ddc32;
 	}
 	
 .card:nth-of-type(4) .card-icon {
 	height:300px;
-	background-color:#FFF533;
+	background-color:#eae12b;
 	}
 	
 .card:nth-of-type(5) .card-icon { 
