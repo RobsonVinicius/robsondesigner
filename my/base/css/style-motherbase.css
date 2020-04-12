@@ -464,7 +464,7 @@ main {
 	}
 	
 .bootstrap .resource-button {
-	box-shadow:#FFECB3 0 0px 0px 3px inset
+	box-shadow:#FFCD40 0 0px 0px 3px inset
 	}
 	
 .wordpress .resource-button {
@@ -829,8 +829,8 @@ footer .authors {
 		}
 	
 	.bootstrap .resource-button:hover {
-		color:rgb(253, 101, 0);
-		box-shadow:#ffdc74 0 0px 0px 40px inset
+		font-weight: bold;		
+		box-shadow:#FFCD40 0 0px 0px 40px inset
 		}
 	
 	.wordpress .resource-button:hover {
