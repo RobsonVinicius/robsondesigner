@@ -690,8 +690,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	}
 }
 
-
-
 @media (max-width: 768px) {
 .content {
 	padding: 40% 0 0;
