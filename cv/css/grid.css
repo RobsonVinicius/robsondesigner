@@ -124,25 +124,26 @@
 	 
 	 
 	.box-barras {
-	float: none;
-	width: 100%;
-	margin-left: 20px;
-	padding-left: 10px;
-		 }
+		margin-top: 3rem;
+		display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
 	.ajuste {
 		margin-top: -3px;
 		color: #a8a6a7;
 		clear: both;
 	}	
 
-	.area-1 {
-		width: 75%;
-		float: left;
-	}
-	.area-2 {
-		width: 20%;
-		float: right;	
-		margin-top: 10px	
+	.svg-inline--fa {
+		font-size: 5em;
+		display: inline-block;
+		height: 1em;
+		color: var(--color);
+		margin-right: 1.5rem;
 	}
 
 	.btn-certificado {
