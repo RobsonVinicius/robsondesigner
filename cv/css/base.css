@@ -42,6 +42,14 @@
 		vertical-align: baseline;
 	}
 	
+	/* Variables */
+	:root {
+		--color: #2196f3;		
+		--color-hover: #02b2d8;
+	}
+
+
+
 	/* HTML5 display-role reset for older browsers */
 	
 	article, 

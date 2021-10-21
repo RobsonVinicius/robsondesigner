@@ -245,7 +245,7 @@ a.btn-green {
 ========================================================================== */
 
 ul.check li:before, ul.plus li:before, ul.pin li:before, ul.fill-circle li:before {
-	color: #0090af;
+	color: var(--color);
 }
 /* ==========================================================================
 #Dividers
@@ -363,7 +363,7 @@ ul.check li:before, ul.plus li:before, ul.pin li:before, ul.fill-circle li:befor
     background-color: rgba(0, 0, 0, 0.15);
 }
 .progress-bar .progress-bar-outer {
-    background-color: #0090af;
+    background-color: var(--color);
 }
 /* ==========================================================================
 #SocialMedia
@@ -398,7 +398,7 @@ a.rss-icon:hover {
     background-color: #f79638 !important;
 }
 a.linkedin-icon:hover {
-    background-color: #0090af !important;
+    background-color: var(--color) !important;
 	}
 a.skype-icon:hover {
     background-color: #00b0f6 !important;
@@ -542,7 +542,7 @@ a.xing-icon:hover {
     border-top: 1px solid #dadada;
 }
 #header .cv-section:first-child {
-    border-top: 10px solid #0090af;
+    border-top: 10px solid var(--color);
 }
 /* CV Section Title */
 
@@ -550,7 +550,7 @@ a.xing-icon:hover {
     border: 1px solid #dadada;
 }
 .cv-section-title h2 {
-    color: #0090af;
+    color: var(--color);
     font-weight: 300;
 }
 /* CV Item */
@@ -583,7 +583,7 @@ a.xing-icon:hover {
 /* Isotope */
 
 .portfolio-items li a {
-    color: #0090af;
+    color: var(--color);
 }
 /* Portfolio filter */
 
@@ -626,7 +626,7 @@ input.validation-error, textarea.validation-error, select.validation-error {
 /* Print & Download PDF Buttons */
 
 #print, #pdf {
-    background-color: #0090af;
+    background-color: var(--color);
 }
 #print i, #pdf i {
     color: #fff;
@@ -635,7 +635,7 @@ input.validation-error, textarea.validation-error, select.validation-error {
     color: #000;
 }
 #print:hover, #pdf:hover {
-    background-color: #02b2d8;
+    background-color: var(--color-hover);
 }
 /* ==========================================================================
 #Responsive
