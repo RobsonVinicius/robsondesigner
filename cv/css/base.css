@@ -164,8 +164,9 @@
 	
 	h1 {
 		margin-bottom: 14px; 	 
-		font-size: 35px; /* 40 48*/
+		font-size: 30px; /* 40 48*/
 		line-height: 50px; 
+		font-weight: 600
 	}
 	
 	h2 { 

@@ -73,10 +73,11 @@ border: 1px solid #dadada;
 .cv-section-title h1 { padding-top: 50px; }
 
 .cv-section-title h1 small {
-font-size: 22.7px; /*  24px */
-line-height: 33px; /*  48px */
+font-size: 21px; /*  24px */
+line-height: 30px; /*  48px */
 text-transform: none;
 display: block;
+font-weight: 400;
 }
 
 .cv-section-title h2 {
