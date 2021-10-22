@@ -631,11 +631,10 @@ input.validation-error, textarea.validation-error, select.validation-error {
 #print i, #pdf i {
     color: #fff;
 }
-#print i, #pdf i:hover {
-    color: #000;
-}
+
 #print:hover, #pdf:hover {
     background-color: var(--color-hover);
+    color: #fff
 }
 /* ==========================================================================
 #Responsive
