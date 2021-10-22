@@ -142,9 +142,8 @@
 		font-size: 5em;
 		display: inline-block;
 		height: 1em;
-		color: var(--color);
-		margin-right: 1.5rem;
-	}
+		color: var(--color);	
+	}	
 
 	.area-1 {
 		width: 75%;
