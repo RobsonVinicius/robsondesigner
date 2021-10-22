@@ -98,10 +98,8 @@ color: #b1b1b1;
 .cv-item {
 padding-bottom: 40px;
 text-align: justify;
-font-size: 14px; /* colocado posteriormente */
-line-height: 2; /* colocado posteriormente */
-/*border-bottom: 1px solid #dadada;
-margin-bottom: 40px;*/
+font-size: 16px; 
+line-height: 2; 
 }
 
 .cv-item:last-child {
