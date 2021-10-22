@@ -138,12 +138,23 @@
 		clear: both;
 	}	
 
-	.svg-inline--fa {
+	.svg-skills {
 		font-size: 5em;
 		display: inline-block;
 		height: 1em;
 		color: var(--color);
 		margin-right: 1.5rem;
+	}
+
+	.area-1 {
+		width: 75%;
+		float: left;
+	}
+	
+	.area-2 {
+		width: 20%;
+		float: right;	
+		margin-top: 10px	
 	}
 
 	.btn-certificado {
