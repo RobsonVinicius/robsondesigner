@@ -122,10 +122,11 @@
 	.visible-desktop { display: inherit !important; } 
 	 
 	 
-	.box-barras {
-		margin-top: 3rem;
+	.box-barras {		
+		margin-top: 10px;
+		margin-left: 0px;
 		display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
     flex-wrap: wrap;
