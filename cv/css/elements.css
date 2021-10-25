@@ -882,7 +882,30 @@
 		}
 			
 		.pie-chart-description { margin-left: 0; }
+
+		.fa-envelope,	.fa-mobile-alt {
+			display: none  !important;
+		}
+
+		.contact-mail {
+			font-size: 15px;		
+			margin: 0;	
+		}
+
+		.contact-phone {
+			margin: 0;
+		}
 		
+	}
+
+	@media (min-width: 768px) and (max-width: 980px) {
+		.fa-envelope,	.fa-mobile-alt {
+			display: none  !important;
+		}
+
+		.contact-mail, .contact-phone {
+			margin: 0;
+		}
 	}
 
 /* ==========================================================================
