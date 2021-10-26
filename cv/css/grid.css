@@ -143,6 +143,7 @@
 		display: inline-block;
 		height: 1em;
 		color: var(--color);	
+		width: 65px;		
 	}	
 
 	.area-1 {
