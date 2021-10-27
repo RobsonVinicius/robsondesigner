@@ -629,6 +629,7 @@ input.validation-error, textarea.validation-error, select.validation-error {
 
 #print, #pdf {
     background-color: var(--color);
+    transition: ease-in 200ms;
 }
 #print i, #pdf i {
     color: #fff;
@@ -636,7 +637,8 @@ input.validation-error, textarea.validation-error, select.validation-error {
 
 #print:hover, #pdf:hover {
     background-color: var(--color-hover);
-    color: #fff
+    color: #fff;
+    transform: scale(1.2)
 }
 /* ==========================================================================
 #Responsive
