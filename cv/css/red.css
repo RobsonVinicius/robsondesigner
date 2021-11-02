@@ -372,6 +372,7 @@ ul.check li:before, ul.plus li:before, ul.pin li:before, ul.fill-circle li:befor
 a.social-icon {
     background-color: #252525;
     color: #fff;
+    transition: ease-in-out 250ms;
 }
 a.facebook-icon:hover {
     background-color: #0e59a0 !important;
@@ -399,6 +400,7 @@ a.rss-icon:hover {
 }
 a.linkedin-icon:hover {
     background-color: var(--color) !important;
+    transform: scale(1.3)
 	}
 a.skype-icon:hover {
     background-color: #00b0f6 !important;
