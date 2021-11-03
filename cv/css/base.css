@@ -1,25 +1,4 @@
-/**
- * Name: base.css
- * Version: 1.0.0
- *	
- *	-
- *
- *	T.O.C
- *	
- *	#CssReset
- *	#Typography
- *		#Links
- *		#Lists
- *		#Images
- *		#Tables
- *		#Forms
- *		#Misc
- */
-
-
-/* ==========================================================================
-   #CssReset
-   ========================================================================== */
+/* CssReset */
 
 	html, body, div, span, applet, object, iframe,
 	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -91,11 +70,6 @@
 		border-spacing: 0;
 	}
 	
-	/**
-	 * 1. Always force vertical scroll
-	 * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
-	 */
-	
 	html { 
 		font-size: 100%; 
 		overflow-y: scroll; /* 1  */ 
@@ -105,38 +79,9 @@
 	}
 
 
-/* ==========================================================================
-   #Typography
-   ========================================================================== */
+/* #Typography */
    
-	body {
-		background: #222 url(../images/bg-body14.png) repeat top left;
-		
-		/*
-		background: #222 url(../images/bg-body.png) repeat top left;
-		background: #222 url(../images/bg-body2.png) repeat top left;
-		background: #222 url(../images/bg-body3.png) repeat top left;
-		background: #222 url(../images/bg-body4.png) repeat top left;
-		background: #222 url(../images/bg-body5.png) repeat top left;
-		background: #222 url(../images/bg-body6.png) repeat top left;
-		background: #222 url(../images/bg-body7.png) repeat top left;
-		background: #222 url(../images/bg-body8.png) repeat top left;
-		background: #222 url(../images/bg-body9.png) repeat top left;
-		background: #222 url(../images/bg-body10.png) repeat top left;
-		background: #222 url(../images/bg-body11.png) repeat top left;
-		background: #222 url(../images/bg-body12.png) repeat top left;
-		background: #222 url(../images/bg-body13.png) repeat top left;
-		background: #222 url(../images/bg-body14.png) repeat top left;
-		background: #222 url(../images/bg-body15.png) repeat top left;
-		background: #222 url(../images/bg-body16.png) repeat top left;
-		background: #222 url(../images/bg-body17.png) repeat top left;
-		background: #222 url(../images/bg-body18.png) repeat top left;
-		background: #222 url(../images/bg-body19.png) repeat top left;
-		background: #222 url(../images/bg-body20.png) repeat top left;
-		
-		background: #222 url(../images/bg-body21.jpg) no-repeat fixed top left;
-		*/
-		
+	body {		
 		color: #444;
 		font: 13px 'Open Sans', Arial, sans-serif;
 		line-height: 21px;	
@@ -290,13 +235,7 @@
 
 	.ml-7 {
 		margin-left: 7px;
-	}
-
-	/* Typography Helper Classes */
-	
-	/**
-	 * <div class="hr"></div> acts like an <hr />
-	 */
+	}	
 	
 	.hr { 
 		border-top: 1px solid #efefef;  
@@ -325,18 +264,13 @@
 	h5.last,
 	address.last { margin-bottom: 0; }
 	
-/* #Links
-   ========================================================================== */
+/* #Links */
 	
 	a, 
 	a:visited { 
 		color: #444; 
 		text-decoration: none; 
 	}
-	
-   /**
-	* 1. Remove the gray background color from active links in IE 10.
-	*/
 	
 	a:active {
  		background: transparent; /* 1 */
@@ -372,15 +306,10 @@
 
 	ul.last,
 	ol.last { margin-bottom:0; }
-
-/* #Images
-   ========================================================================== */
 	
 	img {
 		border: none; 
-	}
-	
-	/* Images Helper Classes */
+	}	
 	
 	.img-align-left { 
 		float: left;
@@ -391,135 +320,22 @@
 		float: right;
 		margin: 5px 0 0 10px; 
 	}
-
-/* #Tables
-   ========================================================================== */
-
-	table { 
-		width: 100%;
-		margin-bottom: 20px; 
-		border-collapse: collapse; 
-		border-spacing: 0; 
-		background-color: transparent; 
-	}
 	
-	caption { 
-		margin: 20px 0;
-		text-align: center; 
-		font-weight: bold; 
-	}
-
-	table th, 
-	table td {
-		padding: 15px 10px; 
-		border-top: 1px solid #efefef;
-		text-align: center; 
-		vertical-align: top; 
-	}
-	
-	table th { 
-		border-top: none;
-		font-weight: bold;  
-	}
-	
-	table thead th { vertical-align: bottom; }
-	
-/* #Forms
-   ========================================================================== */
-
-	label {
-		display: block;
-		margin-bottom: 5px;
-	}
-
-	label span { color: #ff0000; }
-	
-	select,
-	button,
-	input[type="button"],
-	input[type="reset"],
-	input[type="submit"],
-	input[type="radio"],
-	input[type="checkbox"] {
+	button {
 	  cursor: pointer;
 	}
 	
-	input,
-	textarea,
-	select {
-		display: block;
-		max-width: 100%;
-		-webkit-box-sizing: border-box;
-		   -moz-box-sizing: border-box;
-				box-sizing: border-box;
-		padding: 6px 10px;
-		border: 1px solid #ddd;
-		margin-bottom: 10px;
-		background: #fff;
-		color: #666;
-		font: 12px 'Open Sans', Arial, sans-serif;			 
-	}
-	
-	input[type="text"]:focus,
-	input[type="email"]:focus,
-	input[type="url"]:focus,
-	textarea:focus {
-		border-color: #888;
-  		outline: none;	
-	}
-	
-	select { height: 32px; }
-	
-	select:focus {
-	  outline: thin dotted #333;
-	  outline: 5px auto -webkit-focus-ring-color;
-	  outline-offset: -2px;
-	}
-	
-	textarea { 
-		height: 120px;
-		overflow: auto; 
-	}
-
-	.radio,
-	.checkbox {
-		min-height: 18px;
-		padding-left: 18px;
-	}
-	
-	.radio input[type="radio"],
-	.checkbox input[type="checkbox"] {
-		float: left;
-		margin-left: -18px;
-	}
-	
-	input:-moz-placeholder,
-	textarea:-moz-placeholder {
-		color: #ccc;
-	}
-	
-	input:-ms-input-placeholder,
-	textarea:-ms-input-placeholder {
-		color: #ccc;
-	}
-	
-	input::-webkit-input-placeholder,
-	textarea::-webkit-input-placeholder {
-		color: #ccc;
-	}
-	
 	#container-1 {
-	width: 50%;
-	float: left;
-		}
+		width: 50%;
+		float: left;
+	}
 		
 	#container-2 {
-	width: 50%;
-	float: right;
-		}
+		width: 50%;
+		float: right;
+	}
 
-/* #Misc
-   ========================================================================== */
+
    
    
  
