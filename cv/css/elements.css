@@ -1,181 +1,3 @@
-/**
- * Name: elements.css
- * Version: 1.0.0
- *	
- *	-
- *
- *	T.O.C
- *	
- *	#Accordions
- *  #Alerts
- *  #Back to top
- *	#Buttons
- *	#Callout Boxes
- *	#Custom Lists
- *	#Dividers
- *	#Google Maps
- *	#Icon Boxes
- *	#Milestones
- *	#Parallax
- *	#Pie charts
- *	#Pricing Tables
- *	#ProgressBars
- *	#SocialMedia
- *	#Styled Tables
- *	#Tabs
- *	#Testimonials
- */
-
-/* ==========================================================================
-   #Accordions
-   ========================================================================== */
-
-	/* Accordeon */
-	
-	.accordion { margin-bottom: 30px; }
-
-	.accordion-item { margin-bottom: 10px; }
-
-	.accordion-item-toggle {
-		position: relative;
-		display: block;
-		padding: 15px 20px;
-		background-color: #b1b1b1;
-		color: #fff;
-	}
-	
-	.accordion-item-toggle:after {
-		position: absolute;
-		top: 15px;
-		right: 15px;
-		font-size: 18px;
-		content: "+";
-	}
-	
-	.accordion-item-toggle.active:after { content: "-"; }
-	
-	.accordion-item-toggle:hover,
-	.accordion-item-toggle.active {
-		background-color: #fdb020;
-		text-decoration: none;
-	}
-	
-	.accordion-item-content { 
-		padding: 15px 20px; 
-		display: none; 
-	}
-	
-	/*
-	 * 1. Clearfix hack 
-	 */
-	.accordion-item-content:after { /* 1 */
-		visibility: hidden;
-		display: block;
-		font-size: 0;
-		content: " ";
-		clear: both;
-		height: 0;
-	}
-	
-	/* Toogle */
-	
-	.toggle { margin-bottom: 30px; }
-	
-	.toggle-item { margin-bottom: 10px; }
-	
-	.toggle-item-toggle {
-		position: relative;
-		display:block;
-		padding: 15px 20px;
-		background-color: #b1b1b1;
-		color: #fff;
-	}
-	
-	.toggle-item-toggle:after {
-		position: absolute;
-		top: 15px;
-		right: 15px;
-		font-size: 18px;
-		content: "+";
-	}
-	
-	.toggle-item-toggle.active:after { content: "-"; }
-	
-	.toggle-item-toggle:hover,
-	.toggle-item-toggle.active {
-		background-color: #fdb020;
-		text-decoration: none; 
-	}
-
-	.toggle-item-content { 
-		padding: 15px 20px; 
-		display: none; 
-	}
-	
-	/*
-	 * 1. Clearfix hack 
-	 */
-	.toggle-item-content:after { /* 1 */
-		visibility: hidden;
-		display: block;
-		font-size: 0;
-		content: " ";
-		clear: both;
-		height: 0;
-	}
-
-	@media (max-width: 767px) {
-	
-		
-	  
-	}
-
-/* ==========================================================================
-   #Alerts
-   ========================================================================== */
-
-	.alert {
-		padding: 13px 15px;
-		border: 1px solid #d1d1d1;
-		border-radius: 3px;
-		-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-		        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-		margin-bottom: 30px;
-		background-color: #f8f8f8;
-		font-size: 13px;
-	}
-	
-	.alert i {
-		position: relative;
-		top: 1px;
-		margin-right: 7px;
-		font-size: 16px;
-	}
-	
-	.alert.info {
-		border: 1px solid #86cde3;
-		background-color: #cce9f2;
-		color: #3194b1;
-	}
-	
-	.alert.success {
-		border: 1px solid #b3cda1;
-		background-color: #d8f1c6;
-		color: #749958;
-	}
-	
-	.alert.error {
-		border: 1px solid #e1a1a1;
-		background-color: #f9d9d9;
-		color: #b55454;
-	}
-	
-	.alert.warning {
-		border: 1px solid #d1c9ae;
-		background-color: #fbf4dd;
-		color: #978c68;
-	} 
-
 /* ==========================================================================
    #Back to top
    ========================================================================== */
@@ -347,11 +169,8 @@
     float: right;
     font-size: 11px;
     text-align: center;
-		transition: ease 500ms;
-		
-		}
-
-		
+		transition: ease 500ms;		
+	}
 	
 	.btn-portfolio:hover {
 		background: var(--color);
@@ -366,24 +185,21 @@
 	.btn-portfolio .fa:hover {
 		color: #fff;
 	}
-/* ==========================================================================
-   #Callout Boxes
-   ========================================================================== */
-
-	.callout-box {
-		padding: 30px 20px;
-		margin-bottom: 30px;
-		background-color: #333;
-		color: #fff;
+	 
+	body::-webkit-scrollbar {
+		width: 12px;               /* width of the entire scrollbar */
 	}
 	
-	/**
- 	 * Callout box with one background image
- 	 *
-	 * 1. background-image must be supplied using inline css as it is different for every .callout-box
-	 *
-	 */
-	 
+	body::-webkit-scrollbar-track {
+		background: var(--color);        /* color of the tracking area */
+	}
+	
+	body::-webkit-scrollbar-thumb {
+		background-color: #000;    /* color of the scroll thumb */
+		border-radius: 20px;       /* roundness of the scroll thumb */
+		/* border: 3px solid rgb(255, 212, 146);  creates padding around scroll thumb */
+	}
+
 	.callout-box.bg-img {
 		background-repeat: no-repeat; /* 1 */ 
 		background-position: center center;
@@ -625,8 +441,6 @@
 		float: left; 
 		margin-right: 10px; 
 	} 
-	
-	.icon-box-3 .icon-box-content { }
 	
 	.icon-box-3:hover > i { color: #fdb020; }
 
