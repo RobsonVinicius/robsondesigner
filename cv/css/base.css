@@ -25,6 +25,22 @@
 	:root {
 		--color: #fa8500;		
 		--color-hover: #d87b02;
+		--bg-light: #fff;
+		--bg-dark: rgb(48, 48, 48);
+		--h-lightmode-color: #444;
+		--h-darkmode-color: #fff;
+		--p-lightmode-color: #444;
+		--p-darkmode-color: rgb(248, 248, 248);
+		--section-title-lightmode: #565656;
+		--section-title-darkmode: #e1e1e1;
+		--icon-lightmode-color: #252525;
+		--icon-darkmode-color: #636363;
+		--portfolio-filter-lightmode: #444;
+		--portfolio-filter-darkmode: #c3c3c3;
+		--bg-portfolio-filter-lightmode: #787878;
+		--bg-portfolio-filter-darkmode: #5e5e5e;
+		
+		
 	}
 
 	/* HTML5 display-role reset for older browsers */
