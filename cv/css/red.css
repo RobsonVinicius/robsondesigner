@@ -5,10 +5,10 @@
 
 body {
     background: #202020;
-    color: var(--p-lightmode-color);
+    color: var(--p-darkmode-color);
 }
 h1, h2, h3, h4, h5, h6 {
-    color: var(--h-lightmode-color);
+    color: var(--h-darkmode-color);
 }
 abbr[title] {
     border-bottom: 1px dotted #999;
@@ -31,7 +31,7 @@ pre {
 .hr {
     border-top: 1px solid #efefef;
 }
-.text-highlight {
+.text-highdark {
     background-color: #d5edf8;
     color: #111111;
 }
@@ -370,7 +370,7 @@ ul.check li:before, ul.plus li:before, ul.pin li:before, ul.fill-circle li:befor
 ========================================================================== */
 
 a.social-icon {
-    background-color: var(--icon-lightmode-color);
+    background-color: var(--icon-darkmode-color);
     color: #fff;
     transition: ease-in-out 250ms;
 }
@@ -533,7 +533,7 @@ a.xing-icon:hover {
 ========================================================================== */
 
 #wrap {
-    background-color: var(--bg-light);
+    background-color: var(--bg-dark);
 }
 /* ==========================================================================
 #Page Styles
@@ -552,7 +552,7 @@ a.xing-icon:hover {
     border: 1px solid #dadada;
 }
 .cv-section-title h2 {
-    color: var(--section-title-lightmode);
+    color: var(--section-title-darkmode);
     font-weight: 400;
     font-size: 21px;
     opacity: 70%;
@@ -592,10 +592,10 @@ a.xing-icon:hover {
 /* Portfolio filter */
 
 .portfolio-filter ul li a {
-    color: var(--portfolio-filter-lightmode);
+    color: var(--portfolio-filter-darkmode);
 }
 .portfolio-filter ul li a:hover, .portfolio-filter ul li a.active {
-    background-color: var(--bg-portfolio-filter-lightmode);
+    background-color: var(--bg-portfolio-filter-darkmode);
     color: #fff;
 }
 /* CV Contact */
