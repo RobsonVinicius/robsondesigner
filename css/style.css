@@ -35,6 +35,9 @@ a:hover, a:focus {
 	text-decoration: none;
 	color: #f1c40f;
 }
+.text-hero {
+	line-height: 1.7	;
+}
 .img-centered {
 	margin: 0 auto;
 }
