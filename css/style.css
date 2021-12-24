@@ -125,6 +125,11 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #f3ca27;
 }
+
+.social-icons-banner {width: 50px; position: fixed; top: 45%; right: 0; transform: translateY(-50%); z-index: 1;}
+.social-icons-banner i { display: block; width: 20px; margin: 0 auto 20px; cursor: pointer; color: #b3d7ff; transition: 600ms}
+.social-icons-banner i:hover { color: #7ec1ff; transform: scale(1.5)}
+
 .on {
 	background-color: #032731 !important;
 	padding: 0 !important;
