@@ -560,10 +560,6 @@ a.xing-icon:hover {
 }
 /* CV Item */
 
-.cv-item {
-    /* border-bottom: 1px solid #dadada; */
-}
-
 .cv-item hr {
 	height: 0;
 	border: solid #cfcfcf;
