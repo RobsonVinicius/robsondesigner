@@ -372,7 +372,7 @@ ul.check li:before, ul.plus li:before, ul.pin li:before, ul.fill-circle li:befor
 a.social-icon {
     background-color: var(--icon-darkmode-color);
     color: #fff;
-    box-shadow: 0px 0px 0px 1px rgba(92, 92, 92, 0.685);
+    /* box-shadow: 0px 0px 0px 1px rgba(92, 92, 92, 0.685); */
     transition: ease-in-out 250ms;
 }
 a.facebook-icon:hover {
