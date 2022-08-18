@@ -4,6 +4,17 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #1c424d;
 }
+body::-webkit-scrollbar {
+  width: 13px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(253, 176, 32);        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #1c424d;    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(253, 176, 32);  /* creates padding around scroll thumb */
+}
 h1 {
 	font-weight: 700;
 }
