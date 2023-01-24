@@ -104,44 +104,46 @@ header h1{
 	}
 
 .color-filtro{
-	color: #1C26F5;
-	
+	color: #1C26F5;	
 	}
 	
 .color-ux{
-	color: #1C26F5;
-	
+	color: #1C26F5;	
 	}
 
+.color-sites {
+	color: #546E7A;
+}
+
 #back-to-top.visible {
-    right: 50px;
+	right: 50px;
 }
 
 #back-to-top {
-    background-color: #fdb020;
-    color: #fafafa;
+	background-color: #fdb020;
+	color: #fafafa;
 }
 
 #back-to-top {
-    position: fixed;
-    right: -65px;
-    bottom: 28px;
-    width: 50px;
-    height: 50px;
-    background-color: #747474;
-    color: #fafafa;
-    font-size: 30px;
-    line-height: 40px;
-    text-align: center;
-    opacity: 0.5;
-    cursor: pointer;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    text-decoration: none;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-    z-index: 80;
+	position: fixed;
+	right: -65px;
+	bottom: 28px;
+	width: 50px;
+	height: 50px;
+	background-color: #747474;
+	color: #fafafa;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	opacity: 0.5;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	z-index: 80;
 }
 
 strong {
