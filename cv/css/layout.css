@@ -68,7 +68,13 @@ padding: 5px;
 border: 1px solid #dadada;
 }
 
+.fone-number {
+  display: flex;
+}
 
+.fone-number .fa-mobile-alt  {
+  padding-top: 4px;
+}
 
 .cv-section-title h1 { padding-top: 50px; }
 
@@ -403,6 +409,10 @@ ol.last { margin-bottom: 20px; }
 .cv-section-title img {
 float: none;
 margin: 0 auto;
+}
+
+.contact {
+  margin-bottom: 4px !important;
 }
 
 .period { float: none; }
